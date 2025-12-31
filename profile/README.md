@@ -1,9 +1,7 @@
 # Varalys
 
-Open source AI and developer tools
-
+Privacy-first tools for developers and AI
 ---
-
 ## Projects
 
 ### [Redactyl](https://github.com/varalys/redactyl)
