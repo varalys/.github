@@ -18,7 +18,7 @@ Captures AI coding sessions and links them to git commits. Preserves the reasoni
 
 ### [Redactyl](https://github.com/varalys/redactyl)
 
-Secret detection for cloud-native artifacts. Finds sensitive data hidden in container images, Helm charts, Kubernetes manifests, and nested archives—places traditional scanners can't reach.
+Secret detection for cloud-native artifacts. Finds sensitive data hidden in container images, Helm charts, Kubernetes manifests, and nested archives, places traditional scanners can't reach.
 
 - Streams complex archives without disk extraction
 - Tracks secrets through nested paths (`chart.tgz::templates/secret.yaml::line-123`)
