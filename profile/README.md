@@ -10,7 +10,7 @@ Privacy-first tools for developers and AI
 
 Captures AI coding sessions and links them to git commits. Preserves the reasoning and decisions behind code changes and context that git alone doesn't keep.
 
-- Supports 10+ AI tools (Claude Code, Aider, Continue.dev, Cline, and more)
+- Supports 10+ AI tools (Claude Code, Aider, Codex, Gemini, Cline and more)
 - Bidirectional linking: commit → sessions, session → commits
 - Full-text search across all conversations
 - 100% local storage, no cloud sync
