@@ -1,6 +1,6 @@
 # Varalys
 
-Privacy-first tools for developers and AI
+Tools for Developers and AI
 
 ---
 
@@ -8,11 +8,12 @@ Privacy-first tools for developers and AI
 
 ### [Lore](https://github.com/varalys/lore)
 
-Captures AI coding sessions and links them to git commits. Preserves the reasoning and decisions behind code changes and context that git alone doesn't keep.
+Capture AI coding sessions, trace any line to the AI conversation that produced it, and sync it through your own git remotes.
 
-- Supports 10+ AI tools (Claude Code, Aider, Codex, Gemini, Cline and more)
-- Bidirectional linking: commit → sessions, session → commits
-- Full-text search across all conversations
+- Review PRs with the AI conversation behind the diff
+- Understand why code was written a certain way
+- Keep session history with the code when people leave
+- Search past conversations for similar fixes
 - 100% local storage, no cloud sync
 
 
@@ -20,11 +21,12 @@ Captures AI coding sessions and links them to git commits. Preserves the reasoni
 
 Secret detection for cloud-native artifacts. Finds sensitive data hidden in container images, Helm charts, Kubernetes manifests, and nested archives, places traditional scanners can't reach.
 
-- Streams complex archives without disk extraction
+- Stream containers, archives, Helm charts, and Kubernetes manifests
 - Tracks secrets through nested paths (`chart.tgz::templates/secret.yaml::line-123`)
 - Built on proven Gitleaks detection patterns
 - Zero telemetry, privacy-first design
+- Remediate with forward fixes and guarded history rewrites
 
 ---
 
-<sub>All projects are built with privacy in mind.</sub>
+<sub>https://varalys.com</sub>
